@@ -10,8 +10,8 @@ They're organised in directory view by kernel numbers in directory.
 1. `uname -a` to check your kernel version and release number
 2. use `svn export` command to download a specific folder,
    say, my kernel version is : 3.18.7+, #755, I will download that particular folder by : 
-   `svn export https://github.com/dhruvvyas90/8188eu-drivers-rpi/trunk/<folder-name>`
-   Where <folder-name> is 3.18.7-755-756
+   `svn export https://github.com/dhruvvyas90/8188eu-drivers-rpi/trunk/folder-name`
+   Where **folder-name** is 3.18.7-755-756 in my case.
 3. If you don't have subversion installed on rpi, `sudo apt-get install subversion`
 4. Change to the downloaded directory and proceed to installation procedure.
 
